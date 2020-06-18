@@ -1,0 +1,15 @@
+Package: RFLprod
+Title: Functions to Enable Automated use of R at RFL
+Version: 0.1
+Authors@R: person("Ed", "Watkinson", email = "edward.watkinson@nhs.net",
+                  role = c("aut", "cre"))
+Description: These functions should be used within any R scripts being triggered by the warehouse to run regularly, to log failures.
+Depends: R (>= 3.1.0)
+License: MIT
+LazyData: true
+Imports:
+    tidyverse,
+    odbc,
+    DBI
+RoxygenNote: 6.1.1
+Encoding: UTF-8
